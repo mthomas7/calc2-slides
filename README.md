@@ -1,3 +1,4 @@
 # calc2-slides
 
-Test
+* [Intro](./intro.html)
+* [Sequences](seq.html)

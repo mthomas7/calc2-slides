@@ -1,0 +1,24 @@
+---
+title: "Intro"
+author: "Math 112"
+date: "January 19, 2018"
+output:
+  ioslides_presentation:
+    widescreen: yes
+  slidy_presentation: default
+---
+
+## Welcome!
+
+Welcome to Calc 2!
+
+## Course Organization
+
+* Website: haiku learning
+
+
+## Tools
+
+* Sage
+
+## 

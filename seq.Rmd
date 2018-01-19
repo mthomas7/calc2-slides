@@ -1,0 +1,12 @@
+---
+title: "Sequences"
+author: "Math 112"
+date: "January 19, 2018"
+output: ioslides_presentation
+---
+
+## What is a sequence
+
+## Some examples
+
+## How do we code these things?
