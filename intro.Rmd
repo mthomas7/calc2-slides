@@ -1,10 +1,10 @@
 ---
 title: "Intro"
 author: "Math 112"
-date: "January 19, 2018"
+date: "January 22, 2018"
 output:
   ioslides_presentation:
-    widescreen: yes
+    widescreen: no
   slidy_presentation: default
 ---
 
@@ -12,13 +12,20 @@ output:
 
 Welcome to Calc 2!
 
+Introductions
+
 ## Course Organization
 
 * Website: haiku learning
+  * Has syllabus, calendar, homeworks, etc.
+  * Enrolling on the site
+  * A tour of the site
+* Webwork (webwork.ithaca.edu)
 
 
 ## Tools
 
 * Sage
-
-## 
+  * Cocalc (can pay if desired)
+  * SageMath
+  * SageCell

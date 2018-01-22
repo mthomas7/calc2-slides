@@ -6,7 +6,65 @@ output: ioslides_presentation
 ---
 
 ## What is a sequence
+* You can think of a sequences as something like a list of numbers
+  * They can be defined by "typical" formulas
+  * They can be defined recursively
+  * They can be defined by description, e.g. "the number of ways you can..."
+
+## Why care?
 
 ## Some examples
+(See sage)
 
-## How do we code these things?
+Code some of the examples in the book:
+
+$s_n = (0.8)^n$
+
+$s_n = \dfrac{1-e^{-n}}{1+e^{-n}}$ (e to a power in sage is exp())
+
+$s_n = \dfrac{n^2+1}{n}$
+
+$s_n = 1+(-1)^n$
+
+## Finding a formula
+Given a list, can we find the formula?
+
+Things to look for:
+
+* Difference between consecutive terms
+* Ratio/quotient between consecutive terms
+* Patterns like squares, cubes, etc.
+
+Examples:
+
+$4,8,16,32,64,\ldots$
+
+$1,3,5,7,\ldots$
+
+$1,-3,5,-7,\ldots$
+
+How many ways can we define these sequences?
+
+## Limits and Convergence
+We may be interested in what happens in the "long run" (e.g. drugs in the body)
+
+$\displaystyle\lim_{n \to \infty} s_n = L$
+
+If $L$ exists, we say the sequences **converges** to $L$. Otherwise, we say it diverges.
+
+What could go wrong? Let's make a library of examples.
+
+## Some questions
+
+* $s_n = x^n$
+  * Does this converge? Does it matter what (constant) value $x$ is?
+* $s_n = \dfrac{1}{n^p}$
+  * Does this converge? Does it matter what (constant) value $p$ is?
+
+## Technical things
+
+* Definition: A sequence is *bounded* is there are numbers $K$ and $M$ such that $K \leq s_n \leq M$ for all terms.
+* Fact: A convergence sequence is bounded. WHY?
+
+* Definition: A sequence is *monotone* if it is strictly increasing or decreasing, meaning either $s_n < s_{n+1}$ or $s_n > s_{n+1}$ for all $n$
+* Fact: If a sequence is bounded and monotone, it converges. WHY?

@@ -3113,9 +3113,87 @@ if (document.readyState !== "loading" &&
 
 <slide class=""><hgroup><h2>What is a sequence</h2></hgroup><article  id="what-is-a-sequence">
 
+<ul>
+<li>You can think of a sequences as something like a list of numbers
+
+<ul>
+<li>They can be defined by &ldquo;typical&rdquo; formulas</li>
+<li>They can be defined recursively</li>
+<li>They can be defined by description, e.g. &ldquo;the number of ways you can…&rdquo;</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Why care?</h2></hgroup><article  id="why-care">
+
 </article></slide><slide class=""><hgroup><h2>Some examples</h2></hgroup><article  id="some-examples">
 
-</article></slide><slide class=""><hgroup><h2>How do we code these things?</h2></hgroup><article  id="how-do-we-code-these-things"></article></slide>
+<p>(See sage)</p>
+
+<p>Code some of the examples in the book:</p>
+
+<p>\(s_n = (0.8)^n\)</p>
+
+<p>\(s_n = \dfrac{1-e^{-n}}{1+e^{-n}}\) (e to a power in sage is exp())</p>
+
+<p>\(s_n = \dfrac{n^2+1}{n}\)</p>
+
+<p>\(s_n = 1+(-1)^n\)</p>
+
+</article></slide><slide class=""><hgroup><h2>Finding a formula</h2></hgroup><article  id="finding-a-formula">
+
+<p>Given a list, can we find the formula?</p>
+
+<p>Things to look for:</p>
+
+<ul>
+<li>Difference between consecutive terms</li>
+<li>Ratio/quotient between consecutive terms</li>
+<li>Patterns like squares, cubes, etc.</li>
+</ul>
+
+<p>Examples:</p>
+
+<p>\(4,8,16,32,64,\ldots\)</p>
+
+<p>\(1,3,5,7,\ldots\)</p>
+
+<p>\(1,-3,5,-7,\ldots\)</p>
+
+<p>How many ways can we define these sequences?</p>
+
+</article></slide><slide class=""><hgroup><h2>Limits and Convergence</h2></hgroup><article  id="limits-and-convergence">
+
+<p>We may be interested in what happens in the &ldquo;long run&rdquo; (e.g. drugs in the body)</p>
+
+<p>\(\displaystyle\lim_{n \to \infty} s_n = L\)</p>
+
+<p>If \(L\) exists, we say the sequences <strong>converges</strong> to \(L\). Otherwise, we say it diverges.</p>
+
+<p>What could go wrong? Let’s make a library of examples.</p>
+
+</article></slide><slide class=""><hgroup><h2>Some questions</h2></hgroup><article  id="some-questions">
+
+<ul>
+<li>\(s_n = x^n\)
+
+<ul>
+<li>Does this converge? Does it matter what (constant) value \(x\) is?</li>
+</ul></li>
+<li>\(s_n = \dfrac{1}{n^p}\)
+
+<ul>
+<li>Does this converge? Does it matter what (constant) value \(p\) is?</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Technical things</h2></hgroup><article  id="technical-things">
+
+<ul>
+<li>Definition: A sequence is <em>bounded</em> is there are numbers \(K\) and \(M\) such that \(K \leq s_n \leq M\) for all terms.</li>
+<li><p>Fact: A convergence sequence is bounded. WHY?</p></li>
+<li>Definition: A sequence is <em>monotone</em> if it is strictly increasing or decreasing, meaning either \(s_n &lt; s_{n+1}\) or \(s_n &gt; s_{n+1}\) for all \(n\)</li>
+<li><p>Fact: If a sequence is bounded and monotone, it converges. WHY?</p></li>
+</ul></article></slide>
 
 
   <slide class="backdrop"></slide>
