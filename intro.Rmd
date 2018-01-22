@@ -29,3 +29,4 @@ Introductions
   * Cocalc (can pay if desired)
   * SageMath
   * SageCell
+* The book - which we'll follow out of order
