@@ -1,0 +1,24 @@
+---
+title: "Geometric Series"
+author: "Math 246"
+date: "January 25, 2018"
+output: ioslides_presentation
+---
+
+## Geometric Sequences
+
+Of the form: $a, ax, ax^2, ax^3, \ldots$
+
+## Geometric Series (finite)
+
+Of the form: $S_n = a+ax+ax^2+ax^3+\ldots+ax^{n-1}$
+
+## Geometric Series (infinite)
+
+Of the form: $S_n = a+ax+ax^2+ax^3+\ldots$
+
+## Alternating signs
+
+## Programming
+
+Write Sage code to create a geometric sequence, then we'll put together a geometric series
