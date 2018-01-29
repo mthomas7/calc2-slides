@@ -19,6 +19,20 @@ Of the form: $S_n = a+ax+ax^2+ax^3+\ldots$
 
 ## Alternating signs
 
+Suppose you have a geometric sequence/series which alternates in sign. What does this tell you about $a$ and/or $r$?
+
 ## Programming
 
-Write Sage code to create a geometric sequence, then we'll put together a geometric series
+Write Sage code to create a geometric sequence, then we'll put together a geometric series.
+
+$5, 5*3, 5*3^2, \ldots$
+
+## Making the sage code for a series
+
+* Let's make the code for a (finite) geometric series, and check that it matches the textbook (we need to be careful about n!)
+
+## Making sense of the limit of a geometric series
+
+* Writing the formula for a finite geometric series, what happens when $n$ gets large?
+* For which values of $x$ are these formulas valid?
+* Does the sign of $a$ matter? Of $r$?
