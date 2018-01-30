@@ -16,6 +16,7 @@ $$S_n = \sum_{i=1}^n a_i = a_1 + a_2 + a_3 + \ldots + a_n$$
   * This is an approximation for
   
 $$\sum_{i=1}^{\infty} a_i = a_1 + a_2 + a_3 + \ldots$$
+
 ## Construcitng the partial sums
 
 * With a partner, come up with code to plot the sequence of partial sums for the series (note the subscript):
@@ -39,3 +40,6 @@ What series converge?
 
 ## Theorem 9.2
 
+## Comparison of integrals and series
+
+* We'll start with the "quintessential example": the harmonic series.
