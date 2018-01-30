@@ -1,0 +1,41 @@
+---
+title: "Series Convergence"
+author: "Math 112"
+date: "January 30, 2018"
+output: ioslides_presentation
+---
+
+## How to determine whether a *general* series converges
+
+* Key idea here is to look at sequence of partial sums
+
+* Notation (note the subscript):
+
+$$S_n = \sum_{i=1}^n a_i = a_1 + a_2 + a_3 + \ldots + a_n$$
+
+  * This is an approximation for
+  
+$$\sum_{i=1}^{\infty} a_i = a_1 + a_2 + a_3 + \ldots$$
+## Construcitng the partial sums
+
+* With a partner, come up with code to plot the sequence of partial sums for the series (note the subscript):
+
+$$S = \sum_{n=1}^\infty \dfrac{1}{(n(n+1))}$$
+
+## Coming up with formulas for the partial sums
+
+Consider $$\sum_{n=1}^{\infty} \dfrac{1}{n^2+3n+2}$$
+
+We can use a technique called "partial fraction decomposition" to figure out $S_i$
+
+## The Convergence Properties (Theorem 9.2) Setup
+
+What series converge?
+
+> * Geometric when $|x|<1$
+> * $\displaystyle\sum_{n=1}^{\infty} \dfrac{1}{n(n+1)}$
+> * $\displaystyle\sum_{n=1}^{\infty} \dfrac{1}{n^2+3n+2}$
+> * We can compare new series to series we know about
+
+## Theorem 9.2
+
