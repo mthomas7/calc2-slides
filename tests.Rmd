@@ -1,0 +1,66 @@
+---
+title: "Tests for convergence"
+author: "Math 112"
+date: "February 5, 2018"
+output: ioslides_presentation
+---
+
+## Warm up:
+
+* What is a geometric series?
+* How is it written?
+* When does it converge?
+
+* A p-series is of the form $\displaystyle\sum_{n=1}^\infty \dfrac{1}{n^p}$
+* When does it converge?
+
+* Is the harmonic series a geometric series, p-series, or neither?
+
+## The comparison test
+
+(Theorem 9.4)
+
+Suppose $0 \leq a_n \leq b_n$ for all n beyond a certain value
+
+* If $\sum b_n$ converges, then $\sum a_n$ converges
+* If $\sum a_n$ diverges, then $\sum b_n$ diverges
+
+## Examples {.columns-2}
+
+Does the comparison test work with:
+
+* $$\sum_{n=1}^\infty \dfrac{2n-6}{n^4+5}$$
+* $$\sum_{n=1}^\infty \dfrac{n+7}{3n^4-2}$$
+* $$\sum_{n=1}^\infty \dfrac{2n^4-4}{n^5+7}$$
+* $$\sum_{n=1}^\infty \dfrac{2n^4+5}{3n^5-2}$$
+
+## Questions about the limit comparison test
+
+* Why does it work?
+* Why "beyond a certain value"?
+* Why not just use the integral test?
+
+## Limit comparison test
+
+(Theorem 9.5)
+
+Suppose $a_n>0$ and $b_n>0$ for all $n$. If
+$$\lim_{n \to \infty} \frac{a_n}{b_n} = c \textrm{ where } c>0,$$
+
+then $\sum a_n$ and $\sum b_n$ either both converge or both diverge.
+
+Why does this work?
+
+## Examples {.columns-2}
+
+$$\sum_{n=1}^\infty \frac{2n^2-4n+1}{5n^3}$$
+$$\sum_{n=1}^\infty \frac{7n^4-2n}{\sqrt{5n^3}}$$
+$$\sum_{n=1}^\infty \frac{3n^5-6n^2+22}{5n^4-14}$$
+
+## Practice
+
+Write down a series, we'll then trade with neighbors
+
+## Absolute convergence
+
+A series $\sum_{n=1}^\infty a_n$ is said to converge absolutely if $\sum_{n=1}^\infty |a_n|$ converges
