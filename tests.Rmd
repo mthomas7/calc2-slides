@@ -125,3 +125,5 @@ This one needs a picture...
 * A series $\sum a_n$ is conditionally convergent if $\sum a_n$ converges, but $\sum |a_n|$ diverges
 
 Why no definition for when $\sum |a_n|$ converges but $\sum a_n$ diverges?
+
+Find an example of each.
