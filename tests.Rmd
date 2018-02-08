@@ -119,6 +119,8 @@ $$|S - S_n| < a_{n+1}$$
 
 This one needs a picture...
 
+We can always approximate a series using the computer, but we don't always know how close we are.
+
 ## Defintions
 
 * A series $\sum a_n$ is absolutely convergent is $\sum a_n$ and $\sum |a_n|$ converge
@@ -127,3 +129,15 @@ This one needs a picture...
 Why no definition for when $\sum |a_n|$ converges but $\sum a_n$ diverges?
 
 Find an example of each.
+
+## Determine whether the following series converge or diverge:
+
+$\sum \frac{5n+1}{3n^2}$
+
+$\sum \frac{(-1)^{n-1}}{\sqrt{n}}$
+
+$\sum \frac{1}{n^4-7}$
+
+$\sum \frac{1}{r^n n!} \textrm{ with } r>0$
+
+$\sum \left(\frac{-1}{2}\right)^n \left(\frac{7}{3}\right)^{n-1}$
