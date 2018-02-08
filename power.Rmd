@@ -1,0 +1,18 @@
+---
+title: "Power Series and Intervals of Convergence"
+author: "Math 112"
+date: "February 8, 2018"
+output: ioslides_presentation
+---
+
+## Power Series
+
+A power series is defines as a series of the form:
+
+$$C_0 + C_1 (x-a) + C_2 (x-a)^2 + \cdots + C_n (x-a)^n + \cdots = \sum_{n=0}^\infty C_n (x-a)^n$$
+
+Note the index on the sum!!!
+
+## What they are
+
+Power series generalize series - the may converge for certain values of $x$ and diverge for other values of $x$
