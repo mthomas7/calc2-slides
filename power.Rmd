@@ -5,14 +5,57 @@ date: "February 8, 2018"
 output: ioslides_presentation
 ---
 
-## Power Series
+## Power Series - warm up
+
+Consider $$\sum_{n=0}^\infty \frac{x^n}{2^n}$$
+
+Does this converge when $x=-1$? When $x=3$?
+
+## Definition
 
 A power series is defines as a series of the form:
 
-$$C_0 + C_1 (x-a) + C_2 (x-a)^2 + \cdots + C_n (x-a)^n + \cdots = \sum_{n=0}^\infty C_n (x-a)^n$$
+$$C_0 + C_1 (x-a) + C_2 (x-a)^2 + \cdots + C_n (x-a)^n + \cdots$$
+Or
+$$\sum_{n=0}^\infty C_n (x-a)^n$$
 
 Note the index on the sum!!!
 
 ## What they are
 
 Power series generalize series - the may converge for certain values of $x$ and diverge for other values of $x$
+
+We can also think of them as functions of $x$
+
+## Plotting these in sage and/or desmos
+
+* We want to know the values for which a series is going to converge - let's consider
+
+$$\sum_{n=0}^\infty \frac{x^n}{2^n}$$
+## Intervals of Convergence
+
+* Question: Must there always be a value for which a power series converges?
+
+---
+
+Possibilities:
+
+* Series only converges for $x=a$ - radius of convergence is $R=0$
+* Series converges for all values of $x$ - radius of convergence $R=\infty$
+* Some range of values centered at $a$ for which power series converges and diverges outside that range:
+  * Distance from $a$ is called $R$, e.g. converges if $|x-a|<R$ and diverges if $|x-a|>R$
+  * $R$ is the radius of convergence, $(a-R,a+R)$ is the interval of convergence, possibly including one or both of the endpoints
+  * Endpoints are going to need to be considered individually
+  
+The go-to tool for determining the radius/interval of convergence is the ratio test
+
+## Example
+
+$\displaystyle\sum \dfrac{(-1)^{n-1}x^n}{n}$
+
+## Try Some
+
+$\displaystyle\sum \dfrac{x^n}{3^n}$
+
+$\displaystyle\sum_{n=2}^\infty \dfrac{(n-3)^n}{n}$
+
