@@ -1,0 +1,12 @@
+---
+title: "Taylor Polynomials"
+author: "Math 112"
+date: "February 20, 2018"
+output: ioslides_presentation
+---
+
+## Linear Approximations
+
+Suppose we want to find a linear approximation to $f(x) = 5^x$ around $x=2$.
+
+Talk to a neighbor - how did we do this in calc 1?
