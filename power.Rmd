@@ -53,9 +53,20 @@ The go-to tool for determining the radius/interval of convergence is the ratio t
 
 $\displaystyle\sum \dfrac{(-1)^{n-1}x^n}{n}$
 
-## Try Some
+## Try Some, Show on desmos {.columns-2}
 
-$\displaystyle\sum \dfrac{x^n}{3^n}$
+$\displaystyle\sum_{n=0}^\infty \dfrac{x^n}{3^n}$
 
-$\displaystyle\sum_{n=2}^\infty \dfrac{(n-3)^n}{n}$
+$\displaystyle\sum_{n=2}^\infty \dfrac{(x-3)^n}{n}$
 
+$\displaystyle\sum_{n=0}^\infty nx^n$
+
+$\displaystyle\sum_{n=0}^\infty (5x)^n$
+
+$\displaystyle\sum_{n=0}^\infty \frac{(-1)^{n}(x-5)^n}{2^n n^2}$
+
+$\displaystyle\sum_{n=0}^\infty \frac{n^2x^{2n}}{2^{2n}}$ 
+
+$\displaystyle\sum_{n=0}^\infty (2^n+n^2)x^n$ 
+
+$\displaystyle\sum_{n=0}^\infty (-1)^{n} \frac{x^{2n}}{(2n)!}$
