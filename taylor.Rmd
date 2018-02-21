@@ -2,11 +2,75 @@
 title: "Taylor Polynomials"
 author: "Math 112"
 date: "February 20, 2018"
-output: ioslides_presentation
+output: 
+  ioslides_presentation: 
+    widescreen: yes
 ---
 
 ## Linear Approximations
 
-Suppose we want to find a linear approximation to $f(x) = 5^x$ around $x=2$.
+Suppose we want to find a linear approximation to $f(x) = 5^x$ centered at $x=2$.
 
 Talk to a neighbor - how did we do this in calc 1?
+
+Then, find a linear approximation to $f(x)=\sin(x)$ centered at $x=2$.
+
+>- Hint: Use point-slope form for the line.
+
+## Answers
+
+If you use point-slope form and solve for y, both answers should be of the form:
+
+$$L(x) = f(2)+f'(2)(x-2)$$
+
+## Best linear approximations
+
+Suppose we want to find a linear approximation to the function $f(x)$ centered at $x=0$.
+
+What about centered at $x=a$?
+
+## Quadratic Approximations
+
+Suppose we want a quadratic approximation to a function, this means we want a quadratic function which matches a function's value, first derivative, and second derivative at a given point.
+
+Find a quadratic approximation to $y = 2^x$ centered at $x=1$. Then find a quadratic approximation to $y = 2^x$ centered at $x=-4$.
+
+Once you have your answers, plot $2^x$ as well as both of your quadratic approximations.
+
+>- Hint: If you are centered at $x=a$, it helps to write your quadratic function as $Q(x) = c_0 + c_1(x-a) + c_2(x-a)^2$. $f(x)$ and $Q(x)$ should have the same value, first derivative, and second derivative.
+
+## Form of your answers
+
+Your answers should be of the form:
+
+$$Q(x) = f(1) + f'(1)(x-1)+\frac{f''(1)(x-1)}{2}$$
+
+This is starting to look like a pattern.
+
+## Your task
+
+Determine a 5th degree polynomial approximation to $y=3^x$ centered at $x=0$, and plot the original function and your approximation.
+
+Challenge: Find a way to have desmos plot the 10th degree polynomial approximation to $3^x$ centered at 0 without typing out all the terms
+
+Extra challenge: Find a way to have desmos plot the kth degree polynomial approximation to $3^x$ centered at 0 without typing out all the terms, where k is a value in a slider.
+
+## A New Task
+
+Determine polynomial approximations of degrees 1, 2, 3, 4, and 5 for the function
+
+$$f(x) = 3x^3+5x^2-10$$
+
+## More functions {.columns-2}
+
+$f(x) = \dfrac{1}{1+x}$ centered at $a=2$
+
+$g(x) = \ln(x)$ centered at $a=2$
+
+$h(x) = e^{-x}$ centered at $a=-3$
+
+$r(x) = 3 \sin(\pi x/5)$ centered at $a=5$
+
+$q(x) = (1+2x)^{-2}$ centered at $a=0$
+
+$s(x) = \cos(2x)$ centered at $a=\frac{\pi}{2}$

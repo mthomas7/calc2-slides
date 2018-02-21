@@ -3099,7 +3099,7 @@ if (document.readyState !== "loading" &&
 
 <body style="opacity: 0">
 
-<slides>
+<slides class="layout-widescreen">
 
   <slide class="title-slide segue nobackground">
         <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
@@ -3113,9 +3113,75 @@ if (document.readyState !== "loading" &&
 
 <slide class=""><hgroup><h2>Linear Approximations</h2></hgroup><article  id="linear-approximations">
 
-<p>Suppose we want to find a linear approximation to \(f(x) = 5^x\) around \(x=2\).</p>
+<p>Suppose we want to find a linear approximation to \(f(x) = 5^x\) centered at \(x=2\).</p>
 
-<p>Talk to a neighbor - how did we do this in calc 1?</p></article></slide>
+<p>Talk to a neighbor - how did we do this in calc 1?</p>
+
+<p>Then, find a linear approximation to \(f(x)=\sin(x)\) centered at \(x=2\).</p>
+
+<ul class = 'build'>
+<li>Hint: Use point-slope form for the line.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Answers</h2></hgroup><article  id="answers">
+
+<p>If you use point-slope form and solve for y, both answers should be of the form:</p>
+
+<p>\[L(x) = f(2)+f&#39;(2)(x-2)\]</p>
+
+</article></slide><slide class=""><hgroup><h2>Best linear approximations</h2></hgroup><article  id="best-linear-approximations">
+
+<p>Suppose we want to find a linear approximation to the function \(f(x)\) centered at \(x=0\).</p>
+
+<p>What about centered at \(x=a\)?</p>
+
+</article></slide><slide class=""><hgroup><h2>Quadratic Approximations</h2></hgroup><article  id="quadratic-approximations">
+
+<p>Suppose we want a quadratic approximation to a function, this means we want a quadratic function which matches a function’s value, first derivative, and second derivative at a given point.</p>
+
+<p>Find a quadratic approximation to \(y = 2^x\) centered at \(x=1\). Then find a quadratic approximation to \(y = 2^x\) centered at \(x=-4\).</p>
+
+<p>Once you have your answers, plot \(2^x\) as well as both of your quadratic approximations.</p>
+
+<ul class = 'build'>
+<li>Hint: If you are centered at \(x=a\), it helps to write your quadratic function as \(Q(x) = c_0 + c_1(x-a) + c_2(x-a)^2\). \(f(x)\) and \(Q(x)\) should have the same value, first derivative, and second derivative.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Form of your answers</h2></hgroup><article  id="form-of-your-answers">
+
+<p>Your answers should be of the form:</p>
+
+<p>\[Q(x) = f(1) + f&#39;(1)(x-1)+\frac{f&#39;&#39;(1)(x-1)}{2}\]</p>
+
+<p>This is starting to look like a pattern.</p>
+
+</article></slide><slide class=""><hgroup><h2>Your task</h2></hgroup><article  id="your-task">
+
+<p>Determine a 5th degree polynomial approximation to \(y=3^x\) centered at \(x=0\), and plot the original function and your approximation.</p>
+
+<p>Challenge: Find a way to have desmos plot the 10th degree polynomial approximation to \(3^x\) centered at 0 without typing out all the terms</p>
+
+<p>Extra challenge: Find a way to have desmos plot the kth degree polynomial approximation to \(3^x\) centered at 0 without typing out all the terms, where k is a value in a slider.</p>
+
+</article></slide><slide class=""><hgroup><h2>A New Task</h2></hgroup><article  id="a-new-task">
+
+<p>Determine polynomial approximations of degrees 1, 2, 3, 4, and 5 for the function</p>
+
+<p>\[f(x) = 3x^3+5x^2-10\]</p>
+
+</article></slide><slide class=""><hgroup><h2>More functions</h2></hgroup><article  class="columns-2" id="more-functions">
+
+<p>\(f(x) = \dfrac{1}{1+x}\) centered at \(a=2\)</p>
+
+<p>\(g(x) = \ln(x)\) centered at \(a=2\)</p>
+
+<p>\(h(x) = e^{-x}\) centered at \(a=-3\)</p>
+
+<p>\(r(x) = 3 \sin(\pi x/5)\) centered at \(a=5\)</p>
+
+<p>\(q(x) = (1+2x)^{-2}\) centered at \(a=0\)</p>
+
+<p>\(s(x) = \cos(2x)\) centered at \(a=\frac{\pi}{2}\)</p></article></slide>
 
 
   <slide class="backdrop"></slide>
