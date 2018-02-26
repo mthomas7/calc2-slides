@@ -43,7 +43,7 @@ Once you have your answers, plot $2^x$ as well as both of your quadratic approxi
 
 Your answers should be of the form:
 
-$$Q(x) = f(1) + f'(1)(x-1)+\frac{f''(1)(x-1)}{2}$$
+$$Q(x) = f(1) + f'(1)(x-1)+\frac{f''(1)(x-1)^2}{2}$$
 
 This is starting to look like a pattern.
 
