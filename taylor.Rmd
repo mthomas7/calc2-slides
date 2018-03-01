@@ -1,5 +1,5 @@
 ---
-title: "Taylor Polynomials"
+title: "Taylor Polynomials and Series"
 author: "Math 112"
 date: "February 20, 2018"
 output: 
@@ -74,3 +74,41 @@ $r(x) = 3 \sin(\pi x/5)$ centered at $a=5$
 $q(x) = (1+2x)^{-2}$ centered at $a=0$
 
 $s(x) = \cos(2x)$ centered at $a=\frac{\pi}{2}$
+
+## Taylor Series Formulas
+
+Are these really equations???
+
+$$\sin(x) = x - \frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}...$$
+$$\cos(x) = 1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}...$$
+$$e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}...$$
+
+## Find one
+
+Find the taylor series expansion of $\ln(1+x)$ centered at $x=0$.
+Find the taylor series expansion of $\ln(x)$ centered at $x=1$.
+
+Find the taylor series expansion of $\frac{1}{1+x}$ centered at $x=0$. (Compare this with the calculation in the book.)
+
+## Big Questions
+
+What does $\displaystyle\sum_{n=0}^\infty \frac{0.2^n}{n!}$ converge to?
+
+What does $\displaystyle\sum_{n=0}^\infty \frac{1}{n!}$ converge to?
+
+# 10.3
+
+## Finding and Using Taylor Series
+
+Substitution, differentiation and integration, multiplication and division
+
+## The idea
+
+Taking derivatives and integrals of polynomials is easy, other stuff is hard
+
+What if I want to know the 31st derivative of $\sin(x)*\cos(x)$? What about the 31st derivative of $4x^{51}$?
+
+If we can find a taylor series for something like $\sin(x)*\cos(x)$, we can make our job easier.
+
+## Approaches for making new Taylor Series: Substitution
+
