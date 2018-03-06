@@ -112,3 +112,20 @@ If we can find a taylor series for something like $\sin(x)*\cos(x)$, we can make
 
 ## Approaches for making new Taylor Series: Substitution
 
+# Taylor Polynomial Error (10.4)
+
+## The idea
+
+We have wrestled with the question of whether a function is equal to its Taylor series. We justified that for a particular value of $x$, as long as $x$ is in the interval of convergence, evaluating the function at that value and the TS at that value give you the same thing.
+
+That approach just considers points - what about the functions?
+
+## The Lagrange Error Bound for $P_n(x)$
+
+Suppose $f$ and all its derivatives are continuous. If $P_n(x)$ is the $n^{th}$ Taylor polynomial for $f(x)$ about $a$, then
+
+$$|E_n(x)| = |f(x)-P_n(x)| \leq \frac{M}{(n+1)!}|x-a|^{n+1}$$ where $|f^{(n+1)}|\leq M$ on the interval between $a$ and $x$
+
+## Using the Lagrange error bound
+
+Suppose you are interested in approximating $\ln(x)$ between $1.5$ and $2.5$ using a 5th degree Taylor polynomial centered at $2$. How large might your error be?

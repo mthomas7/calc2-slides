@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Taylor Polynomials</title>
+  <title>Taylor Polynomials and Series</title>
 
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,7 +21,7 @@
     var SLIDE_CONFIG = {
       // Slide settings
       settings: {
-                title: 'Taylor Polynomials',
+                title: 'Taylor Polynomials and Series',
                         useBuilds: true,
         usePrettify: true,
         enableSlideAreas: true,
@@ -3169,7 +3169,7 @@ if (document.readyState !== "loading" &&
 
 <p>\[f(x) = 3x^3+5x^2-10\]</p>
 
-</article></slide><slide class=""><hgroup><h2>More functions</h2></hgroup><article  id="more-functions" class="columns-2">
+</article></slide><slide class=""><hgroup><h2>More functions</h2></hgroup><article  class="columns-2" id="more-functions">
 
 <p>\(f(x) = \dfrac{1}{1+x}\) centered at \(a=2\)</p>
 
@@ -3199,7 +3199,41 @@ if (document.readyState !== "loading" &&
 
 <p>What does \(\displaystyle\sum_{n=0}^\infty \frac{0.2^n}{n!}\) converge to?</p>
 
-<p>What does \(\displaystyle\sum_{n=0}^\infty \frac{1}{n!}\) converge to?</p></article></slide>
+<p>What does \(\displaystyle\sum_{n=0}^\infty \frac{1}{n!}\) converge to?</p>
+
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>10.3</h2></hgroup><article  id="section">
+
+</article></slide><slide class=""><hgroup><h2>Finding and Using Taylor Series</h2></hgroup><article  id="finding-and-using-taylor-series">
+
+<p>Substitution, differentiation and integration, multiplication and division</p>
+
+</article></slide><slide class=""><hgroup><h2>The idea</h2></hgroup><article  id="the-idea">
+
+<p>Taking derivatives and integrals of polynomials is easy, other stuff is hard</p>
+
+<p>What if I want to know the 31st derivative of \(\sin(x)*\cos(x)\)? What about the 31st derivative of \(4x^{51}\)?</p>
+
+<p>If we can find a taylor series for something like \(\sin(x)*\cos(x)\), we can make our job easier.</p>
+
+</article></slide><slide class=""><hgroup><h2>Approaches for making new Taylor Series: Substitution</h2></hgroup><article  id="approaches-for-making-new-taylor-series-substitution">
+
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Taylor Polynomial Error (10.4)</h2></hgroup><article  id="taylor-polynomial-error-10.4">
+
+</article></slide><slide class=""><hgroup><h2>The idea</h2></hgroup><article  id="the-idea-1">
+
+<p>We have wrestled with the question of whether a function is equal to its Taylor series. We justified that for a particular value of \(x\), as long as \(x\) is in the interval of convergence, evaluating the function at that value and the TS at that value give you the same thing.</p>
+
+<p>That approach just considers points - what about the functions?</p>
+
+</article></slide><slide class=""><hgroup><h2>The Lagrange Error Bound for \(P_n(x)\)</h2></hgroup><article  id="the-lagrange-error-bound-for-p_nx">
+
+<p>Suppose \(f\) and all its derivatives are continuous. If \(P_n(x)\) is the \(n^{th}\) Taylor polynomial for \(f(x)\) about \(a\), then</p>
+
+<p>\[|E_n(x)| = |f(x)-P_n(x)| \leq \frac{M}{(n+1)!}|x-a|^{n+1}\] where \(|f^{(n+1)}|\leq M\) on the interval between \(a\) and \(x\)</p>
+
+</article></slide><slide class=""><hgroup><h2>Using the Lagrange error bound</h2></hgroup><article  id="using-the-lagrange-error-bound">
+
+<p>Suppose you are interested in approximating \(\ln(x)\) between \(1.5\) and \(2.5\) using a 5th degree Taylor polynomial centered at \(2\). How large might your error be?</p></article></slide>
 
 
   <slide class="backdrop"></slide>
