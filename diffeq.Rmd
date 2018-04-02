@@ -1,0 +1,80 @@
+---
+title: "Differential Equation Modeling"
+author: "Math 112"
+output: ioslides_presentation
+---
+
+
+## Absolute and relative growth rate
+
+$\frac{dP}{dt}$ is the absolute growth rate
+
+Relative growth rate is the 2\% in:
+
+$\frac{dP}{dt} = 0.02 P$.
+
+What are the units of the 2\%?
+
+## Models
+
+Write a differential equation, plot the slope field, and solve the differential equation. Then figure out the constant by using the info in parentheses.
+
+1. A population at time $t$ is given by $p$ and its continuous growth rate is 7\% per year. (The initial population is 10.)
+
+2. A population at time $t$ is given by $p$ and it is decreasing with a continuous rate of 3\% per year. (The initial population is 200.)
+
+3. The instantaneous rate of change of a coffee cup's temperature is proportional to the difference between the cup's temperature and the room's temperature. The room is a constant 70 degrees. (The coffee starts at 200 degrees. What is a reasonable value for the proportionality constant?)
+
+
+## Equilibrium solutions
+
+What are equilibrium solutions for each of the problems. Are they stable or unstable equilibria?
+
+## Coffee
+
+Caffeine is metabolized and excreted at a continuous rate of about 17\% per hour. You wake up in the
+morning (with no caffeine in your system) at 7am. In order to solve every math problem you can, you start
+drinking coffee, containing 130 mg of caffeine per cup, at exactly 7am. Because math is important, you drink
+coffee continuously all day at the rate of one cup an hour.
+
+1. How much caffeine is in your body at 5 pm?
+2. Caffeine overdose occurs when a person has too much caffeine in their system at once. Everyone is
+different when it comes to their reaction to Caffeine. However, let’s say that you start to feel the effects
+of an overdose (twitchiness, jumpy thoughts, inability to do math, etc.) if the amount of caffeine in
+your body exceeds 400mg. Does this happen at any point during the day if you stop drinking Caffeine
+at 7PM?
+
+## Calories
+
+According to a simple physiological model, an athletic adult male needs 16 calories per day per pound of
+body weight to maintain his weight. If he consumes more or fewer calories than those required to maintain his
+weight, his weight changes at a rate proportional to the difference between the number of calories consumed
+and the number needed to maintain his current weight; the constant of proportionality is 1/3500 pounds per
+calorie. Suppose that a particular person has a constant caloric intake of 2500 calories per day. Let W(t) be
+the person’s weight in pounds at time t (measured in days).
+
+1. If a man initially weighs 220 pounds, what happens to his weight as time passes?
+2. If a man initially weighs 150 pounds, what happens to his weight as time passes?
+
+## Second Hand Smoke
+
+When people smoke, carbon monoxide is released into the air. In a room of volume 60 $m^3$, air containing
+5\% carbon monoxide is introduced at a rate of 0.002 $m^3$ per minute. (This means 5\% of the volume of the
+incoming air is carbon monoxide.) The carbon monoxide mixes immediately with the rest of the air, and
+the mixture leaves the room at the same rate as it enters. Let c(t) be the concentration of carbon monoxide
+in the room at time t.
+
+1. What happens to the value of c(t) in the long run (after a lot of time passes)?
+2. Government agencies warn that exposure to air containing 0.02\% carbon monoxide can lead to headaches and dizziness. How
+long does it take for the carbon monoxide in the room to reach this level?
+
+## Salt Concentration
+
+A water reservoir holds 100 million gallons of water and supplies a city with 1 million gallons a day. The
+reservoir is partly refilled by a spring that provides 0.9 million gallons a day, and the rest of the water, 0.1
+million gallons a day, comes from run-off from the surrounding land. The spring is clean, but the run-off
+contains salt with a concentration of 0.0001 pounds per gallon. There was no salt in the reservoir initially,
+and the water is well mixed (that is, the outflow contains the concentration of salt in the tank at that instant)
+Let Q(t) denote the total quantity of salt (in pounds) in the reservoir after t days.
+
+1. Model the concentration of salt in the reservoir (units of concentration are pounds per gallon)
